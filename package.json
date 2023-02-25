@@ -1,0 +1,22 @@
+{
+  "name": "@sy-ui/sy-front-end-lib",
+  "version": "1.0.0",
+  "description": "前端类库",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songyu-wang-jo/sy-front-end-lib.git"
+  },
+  "keywords": [
+    "lib",
+    "sy-ui"
+  ],
+  "author": "sy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songyu-wang-jo/sy-front-end-lib/issues"
+  },
+  "homepage": "https://github.com/songyu-wang-jo/sy-front-end-lib#readme"
+}

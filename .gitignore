@@ -1,0 +1,8 @@
+**/.vscode/
+**/.idea/
+**/node_modules/
+/packages/tools/lib/
+/packages/tools/types/
+**/**/package-lock.json
+*.tgz
+/apps/sy-io-vue3/.vscode/

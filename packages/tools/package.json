@@ -1,0 +1,35 @@
+{
+  "name": "@sy-ui/tools",
+  "version": "1.0.0",
+  "description": "前端工具类库",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "types",
+    "scripts",
+    "tsconfig.json",
+    "tsconfig.es6.json"
+  ],
+  "scripts": {
+    "recompile": "node scripts/clear-compile.js & tsc & tsc --build tsconfig.es6.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songyu-wang-jo/sy-front-end-lib.git"
+  },
+  "keywords": [
+    "tools",
+    "sy-ui"
+  ],
+  "author": "sy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songyu-wang-jo/sy-front-end-lib/issues"
+  },
+  "homepage": "https://github.com/songyu-wang-jo/sy-front-end-lib#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
