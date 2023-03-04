@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "types": [
+      "chalk",
+      "node"
+    ]
+  },
+  "include": [
+    "./**/*",
+    "../types/**/*"
+  ]
+}

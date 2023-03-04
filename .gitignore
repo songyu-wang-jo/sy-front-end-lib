@@ -1,7 +1,7 @@
 **/.vscode/
 **/.idea/
 **/node_modules/
-/packages/tools/lib/
+**/lib/
 /packages/tools/types/
 **/**/package-lock.json
 *.tgz

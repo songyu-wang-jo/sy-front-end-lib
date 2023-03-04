@@ -1,0 +1,41 @@
+{
+  "name": "@sy-ui/vue2-component",
+  "version": "1.0.4",
+  "description": "vue2 常用组件库",
+  "main": "lib/sy-vue2-component.common.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "types",
+    "lib"
+  ],
+  "scripts": {
+    "build-vue2-component": "webpack --config webpack.config.es5.js & webpack --config webpack.config.es5.component.js",
+    "rebuild-vue2-component": "node ../scripts/clear.js lib 先前打包的vue2通用组件 & npm run build-vue2-component"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/songyu-wang-jo/sy-front-end-lib.git"
+  },
+  "keywords": [
+    "vue2",
+    "component",
+    "sy-ui"
+  ],
+  "author": "sy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/songyu-wang-jo/sy-front-end-lib/issues"
+  },
+  "homepage": "https://github.com/songyu-wang-jo/sy-front-end-lib#readme",
+  "devDependencies": {
+    "vue-loader": "^15.7.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@sy-ui/tools": "^1.1.1",
+    "vue": "^2.7.14"
+  }
+}
+

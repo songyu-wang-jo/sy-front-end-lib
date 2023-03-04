@@ -1,6 +1,6 @@
 {
   "name": "@sy-ui/tools",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "前端工具类库",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
@@ -13,7 +13,7 @@
     "tsconfig.es6.json"
   ],
   "scripts": {
-    "recompile": "node scripts/clear-compile.js & tsc & tsc --build tsconfig.es6.json"
+    "recompile-tools": "node ../scripts/clear.js lib 先前编译的tools-lib types 先前生成的tools类型定义文件 & tsc & tsc --build tsconfig.es6.json"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,10 @@
   },
   "homepage": "https://github.com/songyu-wang-jo/sy-front-end-lib#readme",
   "devDependencies": {
+    "@types/node": "^18.14.1",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@sy-ui/tools": "^1.1.0"
   }
 }
